@@ -72,3 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Bot-Battle
 # Bot-Battle
 
+## To view the website visit this link
+# To open the website open this link in your browser
+https://bot-battle-pi.vercel.app/
