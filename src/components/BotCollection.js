@@ -8,7 +8,7 @@ const BotCollection = ({ onEnlist, enlistedBots }) => {
   const [selectedBot, setSelectedBot] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/bots')
+    fetch('https://json-server-vercel-eta-one.vercel.app/bots')
       .then((response) => response.json())
       .then((data) => {
         setBots(data);

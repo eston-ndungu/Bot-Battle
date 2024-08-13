@@ -9,7 +9,7 @@ const App = () => {
   const [selectedBot, setSelectedBot] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/bots')
+    fetch('https://json-server-vercel-eta-one.vercel.app/bots')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -33,7 +33,7 @@ const App = () => {
   };
 
   const handleDischarge = (bot) => {
-    fetch(`http://localhost:3000/bots/${bot.id}`, {
+    fetch(`https://json-server-vercel-eta-one.vercel.app/bots/${bot.id}`, {
       method: 'DELETE',
     })
       .then((response) => {
