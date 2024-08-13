@@ -1,0 +1,52 @@
+app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.bot-collection-container,
+.your-bot-army {
+  margin: 20px;
+}
+
+.bot-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bot-card,
+.enlisted-bot-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  text-align: left;
+}
+
+.bot-card img,
+.enlisted-bot-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.red-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.red-button:hover {
+  background-color: #d32f2f;
+}
+
+.enlisted-bot-card .red-button {
+  background-color: #e57373;
+}
+
+.enlisted-bot-card .red-button:hover {
+  background-color: #c62828;
+}
