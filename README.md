@@ -84,5 +84,5 @@ Filter bots by their class. We can select a few filters at the same time.
 Sort bots by their health, damage or armor. For this, create a new component, SortBar.
 Only enlist one bot from each bot_class. The classes are ["Support", "Medic", "Assault", "Defender", "Captain", "Witch"].
 
-# # To open the website open this link in your browser
+ ## To open the website open this link in your browser
 https://bot-battle-pi.vercel.app/
